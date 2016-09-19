@@ -1,9 +1,9 @@
 {
   "apps": [{
-    "serverURL": "http://fast-lowlands-88088.herokuapp.com/parse",
-    "appId": "6CAUJwLWLdMNuciB84oCc9sGzwjYX4vrlTZAdYie",
-    "masterKey": "Giz1gbzIvNlH3rwn6cwVLvWsSLDgGbE8e9DHOGLW",
-    "appName": "Hello doctor",
+    "serverURL": "",
+    "appId": "",
+    "masterKey": "",
+    "appName": "",
     "iconName": ""
   }],
   "iconsFolder": "icons"
