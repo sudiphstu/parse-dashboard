@@ -43,6 +43,9 @@ let configUserId = program.userId || process.env.PARSE_DASHBOARD_USER_ID;
 let configUserPassword = program.userPassword || process.env.PARSE_DASHBOARD_USER_PASSWORD;
 let configSSLKey = program.sslKey || process.env.PARSE_DASHBOARD_SSL_KEY;
 let configSSLCert = program.sslCert || process.env.PARSE_DASHBOARD_SSL_CERT;
+
+console.log('You must provide either a config file or required CLI options');
+
 if (!program.config && !process.env.PARSE_DASHBOARD_CONFIG) {
   if (configServerURL && configMasterKey && configAppId) {
     configFromCLI = {
